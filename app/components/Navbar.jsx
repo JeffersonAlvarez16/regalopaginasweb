@@ -43,13 +43,12 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Jefferson &nbsp;
-            <span className='sm:block hidden'> | REGALAMOS PAGINAS WEB</span>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex '>            
+            <span className='sm:block hidden'>REGALAMOS PAGINAS WEB</span>
           </p>
         </NavLink>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+       {/*  <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -89,8 +88,9 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> 
         </div>
+          */}
       </div>
     </nav>
   )
