@@ -15,7 +15,9 @@ export const links = () => [
 
 export const meta = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Regalo Páginas Web | Creamos tu sitio web gratis",
+  description:"Crea tu sitio web gratis con Regalo Páginas Web y apoya una buena causa. Ofrecemos diseños personalizados y optimización SEO",
+  keywords:"creación de páginas web, diseño web, sitio web gratis, donación, optimización SEO",
   viewport: "width=device-width,initial-scale=1",
 });
 
